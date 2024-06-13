@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home{
+  display: inline;
+  margin: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.update,.delete{
+  width: 90px;
+  height: 27px;
+  border-radius: 9px;
+  border: none;
+  margin: 3px;
+  background-color: rgb(107, 225, 86);
+}
+
+.adminBtn{
+  margin-top: 300px;
+}
+.lbtn{
+  width: 90px;
+  height: 27px;
+  border-radius: 9px;
+  border: none;
+  margin: 3px;
+  background-color: rgb(227, 60, 60);
+}
+.ubtn{
+  width: 150px;
+  height: 27px;
+  border-radius: 9px;
+  border: none;
+  margin: 3px;
+  background-color: rgb(107, 225, 86);
+}
